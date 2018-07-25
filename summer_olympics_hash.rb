@@ -26,8 +26,10 @@ def iterate_through_keys
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
   upcased_cities =[]
   hash = add_a_key_value_pair
-  hash.each do |cities|
-    
+  hash.each do |cities, year|
+    upcased_cities << cities.to_s.upcase
+    puts cities.to_s.upcase
   end
+  return upcased_cities
 end
 
