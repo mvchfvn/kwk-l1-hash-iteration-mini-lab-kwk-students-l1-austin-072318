@@ -33,3 +33,4 @@ def iterate_through_keys
   return upcased_cities
 end
 
+puts iterate_through_keys
