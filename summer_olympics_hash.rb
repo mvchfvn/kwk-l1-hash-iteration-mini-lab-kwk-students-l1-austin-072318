@@ -27,4 +27,4 @@ def iterate_through_keys
   
 end
 
-puts iterate_through_keys.each_key
+puts olympics_hash.each_key
